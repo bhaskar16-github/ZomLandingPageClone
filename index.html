@@ -147,17 +147,17 @@
               <p>We will send you a link, open it and download in your phone</p>
               <div class="radio__button_container">
                 <div>
-                  <input type="radio" id="email" name="download_app"/>
+                  <input type="radio" id="email" name="download_app" onclick="switchInput('Email')"/>
                   <label for="email" style="font-size: 14px;">Email</label>
                 </div>
                 <div>
-                  <input type="radio" id="phone" name="download_app"/>
+                  <input type="radio" id="phone" name="download_app" onclick="switchInput('Phone no:')"/>
                   <label for="phone" style="font-size: 14px;">Phone</label>
                 </div>
               </div>
               <div class="input_container">
-                <input type="text" placeholder="Email"/>
-                <button>Share App Link</button>
+                <input type="text" id="inputField" placeholder="Email"/>
+                <button>Share</button>
               </div>
               <div class="download__app_container">
                 <h5>Download App From</h5>
