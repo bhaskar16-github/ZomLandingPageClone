@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+/* Hero section */
 .hero__section{
     background: url(images/heroSectionBackground.png);
     background-size: cover;
@@ -13,6 +13,7 @@
     min-height: 60vh;
 }
 
+/* Navigation Bar */
 .navbar{
     display: flex;
     align-items: center;
@@ -261,7 +262,7 @@
     letter-spacing: 0.5px;
 }
 
-<!-- Get the App -- >
+/* Get the App */
 .get__the_app{
     display: flex;
     align-items: center;
@@ -398,7 +399,7 @@
         flex-direction: column;
     }
 }
- <!-- FOOTER -- >
+ /* FOOTER */
 
 .footer{
     width: 100%;
