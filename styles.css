@@ -261,7 +261,7 @@
     letter-spacing: 0.5px;
 }
 
-
+<!-- Get the App -- >
 .get__the_app{
     display: flex;
     align-items: center;
@@ -398,6 +398,7 @@
         flex-direction: column;
     }
 }
+ <!-- FOOTER -- >
 
 .footer{
     width: 100%;
